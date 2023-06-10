@@ -33,3 +33,15 @@ class Dado{
 let dado1 = new Dado();
 dado1.tirar()
 dado1.imprimir()
+
+class Persona3{
+    constructor(public nombre:string, public edad:number){}
+
+    imprimir(){
+        console.log('Nombre: ${this.nombre} y edad: ${this.edad}')
+    }
+}
+
+let persona3:Persona3
+persona3 = new Persona3('Juan', 23)
+persona3.imprimir()
